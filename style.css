@@ -285,6 +285,7 @@ header .navbar {
  }
 
  .review-section .review {
+    user-select: none; 
      display: flex;
      padding: 35px;
      text-align: center;
@@ -445,6 +446,33 @@ header .navbar {
      background: transparent;
  }
 
+ /*Footer Style*/
+
+ .footer-section {
+     padding: 20px 0;
+     background: var(--dark-color);
+ }
+
+ .footer-section .section-content {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
+
+ .footer-section :where(.copyright-text, .policy-link) {
+     color: var(--white-color);
+     transition: 0.2s ease;
+ }
+
+ .footer-section .policy-text .policy-link:hover {
+     color: var(--secondary-color);
+ }
+
+ .footer-section .policy-text .seperator {
+     margin: 0 5px;
+     color: var(--white-color);
+ }
+
  @media screen and (max-width: 1024px) { 
      .service-section .service-list {
          gap: 60px; 
@@ -595,6 +623,11 @@ header .navbar {
 
   .review-section .swiper-slide-button {
       display: none;
+  }
+
+  .footer-section .section-content {
+      flex-direction: column;
+      gap: 20px; 
   }
 
  }
