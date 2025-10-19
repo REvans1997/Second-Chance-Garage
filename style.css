@@ -133,7 +133,7 @@ header .navbar {
 .hero-section .hero-details .title {
    font-family: "BBH Sans Bogle", sans-serif;
    letter-spacing: 4px;
-   font-size: 36px;
+   font-size: 40px;
    color: var(--light-color);
 }
 
@@ -232,8 +232,8 @@ header .navbar {
  /*Service Style */
 
  .service-section {
-     color: var(--white-color);
-     background: var(--dark-color);
+     color: var(--dark-color);
+     background: var(--white-color);
      padding: 50px 0 100px;
  }
 
@@ -338,7 +338,7 @@ header .navbar {
  }
 
  .blog-section .section-content .section-title {
-     padding: 0px;
+     padding-top: 50%;
      font-size: var(--font-size-xl);
      color: var(--secondary-color);
      font-weight: var(--font-weight-semibold)
@@ -374,7 +374,7 @@ header .navbar {
  .blog-content .card .p {
      font-size: var(--font-size-m);
      color: var(--grey-color);
-     line-height: 1.5;
+     line-height: 25px;
      padding: 10px;
  }
 
