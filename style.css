@@ -182,7 +182,7 @@ header .navbar {
  /* About Section Style */
  .about-section {
      padding: 120px 0;
-     height: 100%;
+     min-height: 100vh;
      background: var(--light-color);
 
  }
@@ -277,7 +277,7 @@ header .navbar {
 
  .review-section {
      padding: 50px 0 100px;
-     height: 100%;
+     min-height: 100vh;
      background: var(--light-color);
  }
 
@@ -386,7 +386,7 @@ header .navbar {
 
  .contact-section {
      padding: 50px 0 100px;
-     height: 100%;
+     min-height: 100vh;
      background: var(--light-color);
  }
 
