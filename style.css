@@ -132,8 +132,8 @@ header .navbar {
 
 .hero-section .hero-details .title {
    font-family: "BBH Sans Bogle", sans-serif;
-   letter-spacing: 2px;
-   font-size: var(--font-size-xxl);
+   letter-spacing: 4px;
+   font-size: 36px;
    color: var(--light-color);
 }
 
@@ -165,7 +165,9 @@ header .navbar {
     transition: 0.3s ease;
 }
 
-.hero-section .hero-details .button:hover {
+.hero-section .hero-details .button:hover,
+.hero-section .hero-details .contact-us,
+.hero-section .hero-details .service-now {
     color: var(--white-color);
     border-color: var(--white-color);
     background: transparent;
