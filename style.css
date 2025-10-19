@@ -169,18 +169,20 @@ header .navbar {
 }
 
 .hero-section .hero-details .button:hover, 
-.hero-section .hero-details .contact-us { 
+.hero-section .hero-details .contact-us,
+.hero-section .hero-details .service-now { 
     color: var(--white-color);
     border-color: var(--white-color);
     background: transparent;
 }
 
-  .hero-section .hero-details .contact-us.hover {
-        color: var(--primary-color);
-        border-color: var(--secondary-color);
-        background: var(--secondary-color);
+  .hero-section .hero-details .contact-us, 
+  .hero-section .hero-details .service-now:hover {
+     color: var(--primary-color);
+     border-color: var(--secondary-color);
+     background: var(--secondary-color);
   }
-     
+  
  
 
  .hero-section .hero-image-wrapper {
