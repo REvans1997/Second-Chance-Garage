@@ -367,6 +367,7 @@ header .navbar {
  .blog-content .card .h4 {
      margin-top: 10px;
      margin-left: 10px;
+     line-height: 25px;
      font-size: var(--font-size-l);
      color: var(--dark-color);
  }
