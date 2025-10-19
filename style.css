@@ -133,7 +133,7 @@ header .navbar {
 .hero-section .hero-details .title {
    font-family: "BBH Sans Bogle", sans-serif;
    letter-spacing: 4px;
-   font-size: 40px;
+   font-size: 60px;
    color: var(--light-color);
 }
 
@@ -264,7 +264,7 @@ header .navbar {
 
  .service-section .service-list .service-item .name {
      margin: 12px 0;
-     font-size: var(--font-size-l);
+     font-size: var(--font-size-xl);
      font-weight: var(--font-weight-semibold);
  }
 
@@ -464,11 +464,10 @@ header .navbar {
         justify-content: space-between;
 }
 
-
-
-
-
-
+    .private-section .section-content .privacy-text {
+        font-size: var(--font-size-xl);
+        font-weight: var(--font-weight-semibold)
+    }
 
 
 /*Footer Style*/
