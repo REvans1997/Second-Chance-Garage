@@ -449,12 +449,32 @@ header .navbar {
      background: transparent;
  }
 
- /*Footer Style*/
+ /*Privacy Section*/
 
- .footer-section {
-     padding: 20px 0;
-     background: var(--dark-color);
- }
+.private-section {
+    min-height: 100vh;
+    background: var(--primary-color);
+}
+
+.private-section .section-content {
+        display: flex;
+        align-items: center;
+        min-height: 100vh;
+        color: var(--white-color);
+        justify-content: space-between;
+}
+
+
+
+
+
+
+
+/*Footer Style*/
+.footer-section {
+    padding: 20px 0;
+    background: var(--dark-color);
+}
 
  .footer-section .section-content {
      display: flex;
