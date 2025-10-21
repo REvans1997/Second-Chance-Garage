@@ -566,16 +566,20 @@ svg {
 
 .terms-section {
     min-height: 100vh;
-    background: var(--grey-color);
-    color: var(--dark-color);
+    background: var(--light-color);
     line-height: 1.6;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+
 .terms-section .section-title {
         padding-top: 15%;
+}
+
+.terms-section .section-title .section-content {
+    color: var(--dark-color);
 }
 
 .terms-section a{
