@@ -566,9 +566,8 @@ svg {
 
 .terms-section {
     min-height: 100vh;
-    margin: 40px;
     background: var(--grey-color);
-    color: var(--white-color);
+    color: var(--dark-color);
     line-height: 1.6;
     display: flex;
     flex-direction: column;
