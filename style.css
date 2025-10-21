@@ -535,7 +535,7 @@ header .navbar {
 .faq-answer {
     max-height: 0;
     overflow: hidden;
-    transition: max-height;
+    transition: max-height 0.3s ease;
 }
 
 .faq-answer p {
@@ -550,7 +550,7 @@ header .navbar {
 }
 
 .faq.active svg {
-    transform: rotate();
+    transform: rotate(180deg);
 }
 
 svg {
@@ -560,7 +560,7 @@ svg {
 
 /* Policy Section*/
 
-
+/*       and    */
 
 /*Terms Section*/
 
