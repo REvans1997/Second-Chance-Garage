@@ -449,25 +449,6 @@ header .navbar {
      background: transparent;
  }
 
- /*Privacy Section*/
-
-.private-section {
-    padding: 50px 0 100px;
-    min-height: 100vh;
-    background: var(--light-color); 
-}
-
-.private-section .section-content {
-        display: flex;
-        align-items: center;
-        color: var(--dark-color);
-        justify-content: space-between;
-}
-
-.private-section .section-content .privacy-text {
-        font-size: var(--font-size-xl);
-        font-weight: var(--font-weight-semibold)
-}
 
 
 /*Footer Style*/
@@ -540,9 +521,6 @@ header .navbar {
      border-bottom: 2px solid var(--secondary-color);
      cursor: pointer;
  }
-
- 
-
 
 .faq-question {
     display: flex;
