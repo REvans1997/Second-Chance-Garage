@@ -352,6 +352,10 @@ header .navbar {
      font-weight: var(--font-weight-semibold)
  }
 
+ .blog-content figcaption {
+     font-size: var(--font-size-s);
+     padding-bottom: 3px;
+ }
 
  .blog-content {
      display: flex;
