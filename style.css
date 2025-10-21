@@ -341,7 +341,7 @@ header .navbar {
  }
 
  .blog-section .section-content .section-title {
-     padding-top: 20%;
+     padding-top: 15%;
      font-size: var(--font-size-xl);
      color: var(--secondary-color);
      font-weight: var(--font-weight-semibold)
@@ -511,7 +511,7 @@ header .navbar {
  }
 
  .faq-section .section-title {
-     padding-top: 20%;
+     padding-top: 15%;
  }
 
  .faq {
