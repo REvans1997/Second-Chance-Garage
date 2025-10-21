@@ -558,52 +558,31 @@ svg {
 }
 
 
+/* Policy Section*/
+
+
+
 /*Terms Section*/
 
 .terms-section {
-    margin: 0;
-    padding: 0;
-    background: var(--grey-color);
     min-height: 100vh;
+    margin: 40px;
+    background: var(--grey-color);
+    color: var(--white-color);
+    line-height: 1.6;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
 }
 
-.terms-box {
-    max-width: 460px;
-    background-color: var(--dark-color);
-    color: var(--white-color);
-    padding: 60px 30px;
+.terms-section .section-title {
+        padding-top: 15%;
 }
 
-.terms-text {
-    padding: 0 20px;
-    height: 400px;
-    overflow-y: auto;
-    font-size: var(--font-size-n);
-    font-weight: var(--font-weight-medium);
-    color: var(--white-color);
+.terms-section a{
+    color: var(--primary-color);
 }
 
-    .terms-text::-webkit-scrollbar {
-        width: 2px;
-        background-color: var(--dark-color);
-    }
-
-    .terms-text::-webkit-scrollbar-thumb {
-        background-color: var(--light-color);
-    }
-
-    .terms-box h2{
-        text-transform: uppercase;
-    }
-
-    .terms-box h4{
-        font-size: var(--font-size-xl);
-        text-align: center;
-        padding: 0 20px;
-    }
 
  @media screen and (max-width: 1024px) { 
      .service-section .service-list {
