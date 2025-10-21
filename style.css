@@ -462,9 +462,6 @@ header .navbar {
         align-items: center;
         color: var(--dark-color);
         justify-content: space-between;
-        border: 2px solid #000000;
-        padding: 15px;
-        margin: 10px;
 }
 
 .private-section .section-content .privacy-text {
@@ -532,6 +529,10 @@ header .navbar {
      align-items: center;
  }
 
+ .faq-section .section-title {
+     padding-top: 20%;
+ }
+
  .faq {
      max-width: 700px;
      margin-top: 2rem;
@@ -540,6 +541,7 @@ header .navbar {
      cursor: pointer;
  }
 
+ 
 
 
 .faq-question {
